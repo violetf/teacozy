@@ -1,0 +1,133 @@
+/*Universal Styles*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/*Header*/
+header{
+  width: 100%;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  background-color: black;
+}
+
+header img{
+  margin-left: 10px;
+  height: 50px;
+}
+
+nav a{
+  color: white;
+  text-decoration: underline;
+  padding-right: 20px;
+}
+
+/*Mission Section*/
+.mission{
+  height: 700px;
+  width: 1200px;
+  margin-top: 69px;
+  margin-left: 30px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.missiontxt{
+  background-color: black;
+  width: 1200px;
+}
+
+.missiontxt h2, h4{
+  margin: 10px auto;
+}
+
+/*Tea of the Month*/
+
+.teamonth{
+  position: absolute;
+  width: 1000px;
+  margin-top: 839px;
+  margin-left: 115px;
+}
+
+.teatypes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.teatitle{
+  text-align: center;
+}
+
+.teatitle h2{
+  margin: 10px auto;
+}
+
+.teas img{
+  height: 200px;
+  width: 300px;
+}
+
+.teatitle{
+  text-align: center;
+}
+
+.teas h4{
+  margin-top: 10px;
+}
+
+/*Locations*/
+.location{
+  height: 500px;
+  width: 1200px;
+  position: absolute;
+  margin-top: 1500px;
+  margin-left: 30px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.location h2{
+  margin-top: 70px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.locnames{
+  width: 980px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 130px;
+}
+
+.locbox{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin-right: 40px;
+}
+
+.locbox h3, p{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
